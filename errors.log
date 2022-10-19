@@ -1,0 +1,13 @@
+[2022-10-19T10:08:43.649Z] 
+[2022-10-19T10:08:43.649Z] boost start -e local
+[2022-10-19T10:08:43.649Z] Error: Couldn't get proper metadata information of CreatePost
+[2022-10-19T10:08:43.649Z]     at getClassMetadata (/home/jorge/Escritorio/AgileMonkeys/formacion/boosted-blog/node_modules/@boostercloud/framework-core/dist/decorators/metadata.js:8:15)
+[2022-10-19T10:08:43.649Z]     at /home/jorge/Escritorio/AgileMonkeys/formacion/boosted-blog/node_modules/@boostercloud/framework-core/dist/decorators/command.js:31:62
+[2022-10-19T10:08:43.649Z]     at Function.configureCurrentEnv (/home/jorge/Escritorio/AgileMonkeys/formacion/boosted-blog/node_modules/@boostercloud/framework-core/dist/booster.js:33:9)
+[2022-10-19T10:08:43.649Z]     at /home/jorge/Escritorio/AgileMonkeys/formacion/boosted-blog/node_modules/@boostercloud/framework-core/dist/decorators/command.js:15:27
+[2022-10-19T10:08:43.649Z]     at DecorateConstructor (/home/jorge/Escritorio/AgileMonkeys/formacion/boosted-blog/node_modules/reflect-metadata/Reflect.js:541:33)
+[2022-10-19T10:08:43.649Z]     at Object.decorate (/home/jorge/Escritorio/AgileMonkeys/formacion/boosted-blog/node_modules/reflect-metadata/Reflect.js:130:24)
+[2022-10-19T10:08:43.649Z]     at Object.__decorate (/home/jorge/Escritorio/AgileMonkeys/formacion/boosted-blog/node_modules/tslib/tslib.js:99:96)
+[2022-10-19T10:08:43.649Z]     at Object.<anonymous> (/home/jorge/Escritorio/AgileMonkeys/formacion/boosted-blog/dist/commands/create-post.js:19:22)
+[2022-10-19T10:08:43.649Z]     at Module._compile (internal/modules/cjs/loader.js:1085:14)
+[2022-10-19T10:08:43.649Z]     at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
